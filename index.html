@@ -1,0 +1,105 @@
+<!doctype html>
+<html> 
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/960_12_col.css">
+		<link rel="stylesheet" href="css/text.css">
+		<link href='http://fonts.googleapis.com/css?family=Vampiro+One' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Helping you create your space on the web</title>
+	</head>
+	<body>
+		<div id="header-wrapper"> 
+			<header id="header" class="container_12">
+				<nav>
+					<ul>
+						<li class="grid_4"><a href="#about">Meet me</a></li>
+						<li class="grid_4"><a href="#work">What I've done</a>
+							
+							<ul class="dropdown">
+								<li><a href="#">Project 1</a></li>
+								<li><a href="#">Project 2</a></li>
+								<li><a href="#">Project 3</a></li>
+							</ul>
+						</li>				
+						<li class ="grid_4"><a href="#contact">Let's talk</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+
+		<section id="about" class="container_12">
+			<h1>Web Developer</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsa accusantium veniam voluptatum perspiciatis recusandae minus. Sequi id minus praesentium repudiandae accusamus maiores omnis qui sapiente! Eos totam sint amet?</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nam ipsa maiores doloribus qui voluptatibus aut repudiandae vitae impedit temporibus dolores laboriosam earum incidunt accusantium rerum quos saepe vel enim!</p>
+		</section>
+		<!-- end about -->
+
+		<section id="work" class="container_12">
+			<h1>Recent Projects</h1>
+
+			<aside id="images" class="grid_6">
+				<img src="img/project1.png" alt="Project 1" width="400px" height="300px">
+				<img id="img2" src="img/project2.png" alt="Project 2" width="400px" height="300px">
+			</aside>
+
+			<div id="main" class="grid_6">
+				<article id="first-article">
+					<h2>Title 1</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus error deleniti quam aliquam quisquam repellendus. Quod quidem itaque fugit totam reiciendis dolorum accusantium minima ut eligendi iusto harum perferendis officiis.</p>
+				</article>
+				<article>
+					<h2>Title 2</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus error deleniti quam aliquam quisquam repellendus. Quod quidem itaque fugit totam reiciendis dolorum accusantium minima ut eligendi iusto harum perferendis officiis.</p>
+				</article>				
+			</div>
+		</section> 
+		<!-- end work -->
+
+		<section id="contact" class="container_12">
+			<h1>Contact Me</h1>
+			<form action="" method="post">
+				<fieldset>
+					<legend>Your contact details:</legend>
+				 	<ul>
+						<li>Name<input class="adjust" type="text" name="name" placeholder="First name Last name"></li>
+						<li>Email<input type="text" name="email"></li>
+						<li>Zip Code<input type="text" name="zip"></li>
+						<li>Phone<input type="text" name="phone" placeholder="(xxx)-xxx-xxxx"></li>
+						<li>Skype<input type="text" name="skype"></li>
+					</ul>	 
+					
+
+
+
+				</fieldset>
+				<p>Project type:
+					<select name="projectType">
+						<option value="newWebsite">Build a new website</option>
+						<option value="upgradeWebsite">Upgrade an old website</option>
+					</select>
+				</p>
+
+				<p>Will you require website design services?
+					<input type="radio" name="designRequired" value="yes" checked="checked">yes
+					<input type="radio" name="designRequired" value="no">no
+				</p>
+				    
+				<p>Special features (beyond standard text and graphics) you want your website to have:
+					<input type="checkbox" name="features" value="passwordAreas"> Password-protected areas
+					<input type="checkbox" name="features" value="forums"> Forums
+					<input type="checkbox" name="features" value="reviews"> Reviews
+					<input type="checkbox" name="features" value="polls"> Polls
+				</p>	
+			 
+			    <p>Additional comments<textarea name="comments"></textarea></p>
+
+			    <input type="submit" value="Contact Me">
+		    </form>
+			
+		</section>
+		<!-- end contact -->
+
+	</body>
+</html>

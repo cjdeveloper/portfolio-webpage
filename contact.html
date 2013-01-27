@@ -1,0 +1,48 @@
+<html> 
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Contact</title>
+	</head>
+	<body>
+		<h2>Contact Me</h2>
+		<form action="" method="post">
+			<fieldset>
+				<legend>Your contact details:</legend>
+				<ul>
+					<li>Name<input type="text" name="name" placeholder="First name Last name"></li>
+					<li>Email<input type="text" name="email"></li>
+					<li>Zip Code<input type="text" name="zip"></li>
+					<li>Phone<input type="text" name="phone" placeholder="(xxx)-xxx-xxxx"></li>
+					<li>Skype<input type="text" name="skype"></li>
+				</ul>	
+			</fieldset>
+			<p>Project type:
+				<select name="projectType">
+					<option value="newWebsite">Build a new website</option>
+					<option value="upgradeWebsite">Upgrade an old website</option>
+				</select>
+			</p>
+
+			<p>Will you require website design services?
+				<input type="radio" name="designRequired" value="yes" checked="checked">yes
+				<input type="radio" name="designRequired" value="no">no
+			</p>
+			    
+			<p>Special features (beyond standard text and graphics) you want your website to have:
+				<input type="checkbox" name="features" value="passwordAreas"> Password-protected areas
+				<input type="checkbox" name="features" value="forums"> Forums
+				<input type="checkbox" name="features" value="reviews"> Reviews
+				<input type="checkbox" name="features" value="polls"> Polls
+			</p>	
+
+		    <p>Additional comments<textarea name="comments"></textarea></p>
+
+		    <input type="submit" value="Contact Me">
+
+		</form>
+
+
+
+	</body>
+</html>
